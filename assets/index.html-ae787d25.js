@@ -1,0 +1,1 @@
+import{_ as t,p as c,q as r,R as e,t as a}from"./framework-eee6889e.js";const n={},o=e("h1",{id:"launcher-projectbw",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#launcher-projectbw","aria-hidden":"true"},"#"),a(" launcher projectbw")],-1),s=[o];function _(d,h){return c(),r("div",null,s)}const l=t(n,[["render",_],["__file","index.html.vue"]]);export{l as default};
