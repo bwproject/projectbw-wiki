@@ -1,5 +1,6 @@
 # Добро пожаловать на WIKI ProjectBW
 
+[![RSY](https://projectbw.ru/reklama/rsy.html)](https://projectbw.ru/reklama/rsy.html)
 <!-- you don't need to prepend `/bar/` to `/images/hero.png` manually -->
 ![projectbw logo](https://wiki.projectbw.ru/images/hero.png)
 
