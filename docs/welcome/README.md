@@ -38,7 +38,9 @@ SkyBlock Сервер - Сервер Minecraft с режимом игры выж
 
 О всех наших серверах мы написали тут: 
 
-[Сервера и режимы BW](https://wiki.projectbw.ru/server/)
+[Сервера и режимы BW Minecraft](https://wiki.projectbw.ru/server/)
+
+[Сервера и режимы BW GMod](https://wiki.projectbw.ru/server/)
 
 ***
 
