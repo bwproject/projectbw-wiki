@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-53918c94","path":"/launcher/","title":"launcher projectbw","lang":"ru_RU","frontmatter":{},"headers":[],"git":{"updatedTime":1757484264000,"contributors":[{"name":"The_Mr_Mes109","email":"linkthemrmes109@gmail.com","commits":1}]},"filePathRelative":"launcher/README.md"}');export{e as data};

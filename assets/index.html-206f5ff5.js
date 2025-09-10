@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-02d2e48d","path":"/server/hub/","title":"","lang":"ru_RU","frontmatter":{},"headers":[{"level":2,"title":"Hub","slug":"hub","link":"#hub","children":[]}],"git":{"updatedTime":1757484264000,"contributors":[{"name":"The_Mr_Mes109","email":"linkthemrmes109@gmail.com","commits":1}]},"filePathRelative":"server/hub/README.md"}');export{e as data};

@@ -1,0 +1,1 @@
+import{_ as t,p as a,q as n,R as r,t as c}from"./framework-13ae625d.js";const o={};function s(d,e){return a(),n("div",null,[...e[0]||(e[0]=[r("h1",{id:"launcher-projectbw",tabindex:"-1"},[r("a",{class:"header-anchor",href:"#launcher-projectbw","aria-hidden":"true"},"#"),c(" launcher projectbw")],-1)])])}const i=t(o,[["render",s],["__file","index.html.vue"]]);export{i as default};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5ff84ad0","path":"/server/skyblock/","title":"SkyBlock / OneBlock","lang":"ru_RU","frontmatter":{},"headers":[],"git":{"updatedTime":1757484264000,"contributors":[{"name":"The_Mr_Mes109","email":"linkthemrmes109@gmail.com","commits":1}]},"filePathRelative":"server/skyblock/README.md"}');export{e as data};

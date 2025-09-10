@@ -1,0 +1,1 @@
+import{_ as n,p as t,q as r,R as l}from"./framework-13ae625d.js";const o={};function s(_,e){return t(),r("div",null,[...e[0]||(e[0]=[l("p",null,"README.md",-1)])])}const c=n(o,[["render",s],["__file","index.html.vue"]]);export{c as default};
