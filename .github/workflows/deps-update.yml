@@ -1,0 +1,48 @@
+name: Safe Weekly Dependency Update
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: yarn
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Install npm-check-updates
+        run: npm install -g npm-check-updates
+
+      - name: Update package.json safely (devDependencies only)
+        run: ncu -u --dep dev
+
+      - name: Install updated dependencies
+        run: yarn install
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: weekly dependency updates (safe)"
+          title: "Weekly dependency update (safe)"
+          body: |
+            Automated safe dependency updates using npm-check-updates.
+            Updates devDependencies only to reduce breaking risk for VuePress.
+          branch: deps/weekly-safe-update
+          base: main
+          delete-branch: true
