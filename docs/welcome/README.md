@@ -1,67 +1,49 @@
-# Добро пожаловать в ProjectBW Wiki
+---
+home: true
+heroImage: https://wiki.projectbw.ru/images/hero.png
+heroText: ProjectBW Network
+tagline: Игровая сеть серверов Minecraft, Garry’s Mod и BeamNG.drive
+actions:
+  - text: Начать изучение
+    link: /welcome/
+    type: primary
+  - text: Серверы
+    link: /server/
+    type: secondary
 
-![ProjectBW](https://wiki.projectbw.ru/images/hero.png)
+features:
+  - title: 🎮 Minecraft (Java & Bedrock)
+    details: Сервера с поддержкой 1.21.x и 1.26.x, выживание, SkyBlock и другие режимы
 
-## 🌍 О проекте
+  - title: 🧱 Garry’s Mod
+    details: Кастомные игровые режимы и уникальная игровая инфраструктура
 
-**ProjectBW (Beautiful World)** — это сеть игровых серверов, объединяющая несколько игр, режимов и сообществ.
+  - title: 🚗 BeamNG.drive Multiplayer
+    details: Мультиплеерные серверы для совместной игры и событий
 
-Мы создаём единую игровую экосистему с различными направлениями, где каждый игрок может найти свой формат игры.
+  - title: 🧩 Recreation
+    details: Отдельное направление проекта с собственной экономикой, правилами и режимами
+
+footer: © 2014–2026 ProjectBW
+---
+
+## ⚡ Добро пожаловать в ProjectBW
+
+ProjectBW — это игровая сеть, объединяющая несколько проектов и игровых миров.
+
+Мы создаём экосистему, где каждый игрок может найти свой стиль игры: от классического выживания до кастомных режимов и мультиплеерных событий.
 
 ---
 
-## 🎮 Наши сервера
+## 🌍 Что тебя ждёт
 
-### Minecraft (Java & Bedrock)
-Сервера с поддержкой версий **1.21.x и 1.26.x**, включающие различные игровые режимы: выживание, SkyBlock и другие.
-
-### Garry’s Mod
-Отдельные серверы с уникальными игровыми режимами и кастомными механиками.
-
-### BeamNG.drive Multiplayer
-Серверы для мультиплеерных сессий и совместной игры.
+- 🏰 Постоянно развивающиеся игровые миры
+- ⚙️ Уникальные механики и режимы
+- 🤝 Активное сообщество игроков
+- 🚀 Регулярные обновления и ивенты
 
 ---
 
-## 🧩 Дополнительный проект: Recreation
+## 🔗 Быстрый старт
 
-**Recreation** — отдельное направление проекта с собственной инфраструктурой и правилами.
-
-Оно отличается от основной сети BW и имеет свои режимы и правила поведения.
-
----
-
-## 🔗 Полезные ссылки
-
-### ProjectBW
-- 🌐 Minecraft сайт: https://mc.projectbw.ru/
-- 🎮 Garry’s Mod сайт: https://gmod.projectbw.ru/
-- 💬 VK: https://vk.com/projectbw
-
-### Recreation
-- 🌐 Сайт: https://recreation.projectbw.ru
-- 💬 VK: https://vk.com/recreation_mine
-- 💬 Discord: https://discord.gg/WQJcsysUmN
-
----
-
-## 📚 Wiki
-Документация создана на базе **VuePress**: https://vuepress.vuejs.org/
-
----
-
-## 👤 Авторы и благодарности
-
-**Автор:** The_Mr_Mes109
-
-![author](https://mc.projectbw.ru/api/skin-api/avatars/face/The_Mr_Mes109)
-
-### Спасибо за вклад:
-- The_Ms_Mes109
-- accountbyben
-- Neposak
-- Aquamarin_Riate
-
----
-
-© 2014–2026 ProjectBW
+Перейди в раздел серверов, чтобы выбрать игру и начать прямо сейчас.
