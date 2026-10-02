@@ -46,7 +46,7 @@ export default defineUserConfig({
             {
                 text: 'BW WIKI',
                 children: [
-						'/welcome/README.md',
+						{ text: 'Добро пожаловать', link: '/welcome/' },
 						'/rules/README.md',
 						'/server/README.md',
 						'/guide/README.md',					    
@@ -77,7 +77,7 @@ export default defineUserConfig({
                     text: 'BW WIKI',
                     collapsible: false,
                     children: [						
-						'/welcome/README.md',
+						{ text: 'Добро пожаловать', link: '/welcome/' },
 						'/rules/README.md',
 						'/server/README.md',
 						'/guide/README.md',					    
