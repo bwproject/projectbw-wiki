@@ -67,7 +67,9 @@ ProjectBW — это игровая сеть нового поколения, о
 
 ### 💙 Спасибо за вклад:
 
-- The_Mr_Mes109
+- The_Ms_Mes109
 - accountbyben
+- MrRamon
 - Neposak
 - Aquamarin_Riate
+- Maler
