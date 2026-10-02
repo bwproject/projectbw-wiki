@@ -3,7 +3,13 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 
 export default defineUserConfig({
-    bundler: viteBundler(),
+    bundler: viteBundler({
+        viteOptions: {
+            build: {
+                cssMinify: false,
+            },
+        },
+    }),
     head: [
     ['link', {rel: 'icon', type: 'image/png', sizes: '16x16', href: `/images/icons/16.png`,}],
     ['link', {rel: 'icon', type: 'image/png', sizes: '32x32', href: `/images/icons/32.png`,}],
